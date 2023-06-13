@@ -1,0 +1,133 @@
+.navbar {
+    margin: 60px;
+    width: auto;
+    height: 100px;
+    background-color: black;
+    text-align: right;
+    padding: 19px;
+    font-size: 50px;
+    
+  }
+
+.body {
+          font-family: Arial, Helvetica, sans-serif;
+          box-sizing: border-box;
+          padding:0;
+          margin: 0;
+          width: auto;
+          background-color: lightyellow;
+      }
+      .heading h1{
+        font-size: 70px;
+        text-align: center;
+background-color: lightyellow;
+
+      }
+.heading h2{
+          font-size: 68px;
+          text-align: center;
+          background-color: lightyellow;
+           }
+           .heading {
+            background-color: lightyellow;
+        margin-top: 0%;       }
+        
+            
+    
+.image-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              
+.image-container img {
+                width: 620px;
+                height: 620px;
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-right: 1px;
+                margin-left: 1px;
+              }
+.nav-link {
+    color: #fff;
+    text-decoration-style: double;color: lightyellow;
+    margin: 0 10px;
+    }
+.Aboutus  {
+    font-size: 34px;
+    color: #333;
+    padding: 50px;
+    background-color: lightyellow;
+}
+.Aboutus h2{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: none;
+
+}
+.OurServices {
+    font-size: 34px;
+    color: #333;
+    padding: 50px;
+    background-color: lightyellow;
+    
+}
+.OurServices h2{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+.ContactUs{
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: lightyellow;
+    background-image: url(Salon.jpg);
+    margin-top: 0;
+}
+.AboutUs p{
+    font-size: x-large;
+
+}
+.my-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .my-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .my-form input[type="text"],
+  .my-form input[type="email"],
+  .my-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .my-form input[type="submit"] {
+    background-color: rgb(2, 2, 0);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .my-form input[type="submit"]:hover {
+    background-color: yellow ;
+  }
+  .contact-container {
+    border: #fff;
+    border-color: black;
+
+  }
+  @media screen {
+    max-width: 480px;
+  }
